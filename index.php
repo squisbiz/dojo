@@ -30,7 +30,7 @@ In the Western World, the term dojo primarily refers to a training place, usuall
       Inspired by this idea, and by the perfection-seeking performance of the martial artists, we have named this site The Dojo, a community-building online meeting place and training venue for software engineers to practice and hone their English-based communication and soft skills in a professional context. Just like a martial artists would do at a dojo.
 			</p>
 			
-			<a class="button" href="#">ABOUT US</a>
+			<a class="button" href="<?php echo home_url(); ?>	/about-us">About us</a>
   	</div>
 
 	</div><!-- about-centered -->
@@ -65,7 +65,7 @@ In the Western World, the term dojo primarily refers to a training place, usuall
 		  
 		</div>
 		
-</section>
+</section>	
 	
 	
 	
@@ -73,67 +73,26 @@ In the Western World, the term dojo primarily refers to a training place, usuall
 	
 	
 	
-	
-	
-	<a name="register"></a>
-	<section id="register">
-		<div class="register-centered">
-  		<h1>Save your spot, register now!</h1>
+<a name="register"></a>
+<section id="register">
+  <h2>Save your spot, register now!</h2>
+  	<div class="register-centered">
   		<div class="register form">
-  		<form name="htmlform" method="post" action="send.php">
+  		<form name="htmlform" method="post" action="<?php echo get_stylesheet_directory_uri(); ?>/send.php">
     		
-    		<p class="error"></p>
-          <p><input type="text" name="name" placeholder="Your name"></p>
-          <p><input type="text" name="email" placeholder="E-mail"></p>
-          <p><input type="text" name="url" placeholder="company url"></p>
-          <p class="center"><input type="submit" value="Send request" class="smallbutton"></p>
-        <p class="center small">All information is kept private</p>
-				</form>
+  		<p class="error"></p>
+        <p><input type="text" name="name" placeholder="Your name"></p>
+        <p><input type="text" name="email" placeholder="E-mail"></p>
+        <p><input type="text" name="url" placeholder="company url"></p>
+        <p class="center"><input type="submit" value="Send request" class="button"></p>
+      <p class="center small">All information is kept private</p>
+			</form>
 
-			</div>
 		</div>
-	</section>
-  
-  
-  
-  
-  
-  
-  
- <!--
- <div id="live">
-    <h1>Watch previous episodes</h1>
-    <div class="container">
-      <div class="prev-episode">
-        <a target="_blank" href="https://www.youtube.com/watch?v=RFvrVrtitR0"><img src="img/img04.png"/></a>
-        <h2><a href="https://www.linkedin.com/in/robert-graham">Robert Graham</a></h2>
-        <span>Business Hacker at Poll Everywhere</span>
-      </div>
-      <div class="prev-episode">
-        <a target="_blank" href="https://www.youtube.com/watch?v=x1ZEI8mH47g"><img src="img/img05.png" /></a>
-        <h2><a href="https://www.linkedin.com/in/kevindaum">Kevin Daum</a></h2>
-        <span>Columnist at Inc.com Author of the Amazon #1 Best Sellers Video Marketing For Dummies</span>
-      </div>
-      <div class="prev-episode">
-        <a target="_blank" href="https://www.youtube.com/watch?v=g2zXoFWUzXg"><img src="img/img06.png" /></a>
-        <h2><a href="https://www.linkedin.com/in/jorgeolson">Jorge S. Olson</a></h2>
-        <span>Business Hacker at Poll Everywhere</span>
-      </div>
-    </div>
-  </div>
--->
+	</div>
+</section>
   
 
-  <div id="social">
-    <h2>Follow us on the internet</h2>
-    <div class="social-center">
-      <a class="sociallink fb" target="_blank"></a>
-      <a class="sociallink tw" target="_blank"></a>
-      <a class="sociallink li" target="_blank" href="https://www.linkedin.com/grp/home?gid=6571818"></a>
-      <a class="sociallink gp" target="_blank" href="https://plus.google.com/u/1/109277262538626079632/about?cfem=1"></a>
-      <a class="sociallink yt" target="_blank" href="https://www.youtube.com/channel/UCa_uwhMRbNhoV4tPxE_AlfQ"></a>
-    </div>
-  </div>
   
 <script>
   // get the value of the bottom of the #main element by adding the offset of that element plus its height, set it as a variable

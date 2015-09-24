@@ -1,10 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:700);
 /*
 Theme Name: Dojo
 */
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:700);
-
 html,
 body {
   height: 100%;
@@ -34,17 +32,8 @@ a:active {
   text-decoration: none;
   color: #FFF;
 }
-/*
-*, *:after, *:before{
-	position: relative;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-}
-*/
 .main-container {
   width: 100%;
-  height: 100%;
 }
 .safearea {
   width: 960px;
@@ -81,7 +70,7 @@ video {
   transition: 1s opacity;
 }
 .next {
-  background: #f58534;
+  background: #4fc1ec;
   padding: 20px 30px;
   position: absolute;
   bottom: -30px;
@@ -98,7 +87,7 @@ video {
   transition: all .3s;
 }
 .next:hover {
-  background: #ea7e31;
+  background: #51c5f1;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
   transition: all .3s;
 }
@@ -115,7 +104,7 @@ video {
 }
 .main-centered {
   margin: 0 auto;
-  top: 310px;
+  top: 50%;
   position: relative;
   width: 1000px;
   text-align: center;
@@ -217,23 +206,19 @@ a:visited.btn {
   color: #FFF;
 }
 #register {
-  width: 100%;
-  height: 100%;
   background: url(../img/register-bg.png) no-repeat;
   background-size: cover;
   background-color: #67c0cd;
   /* #4cddf3 */
   text-align: center;
-  /*
   padding-top: 100px;
   padding-bottom: 100px;
-*/
 }
-#register h1 {
-  color: #FFF;
-  margin: 0px;
-  font-family: 'Ubuntu', sans-serif;
+#register h2 {
+  font-size: 32px;
   margin-bottom: 20px;
+  color: #FFF;
+  text-transform: uppercase;
 }
 #register h3 {
   color: #FFF;
@@ -248,7 +233,6 @@ a:visited.btn {
   background-color: #f5f5f5;
   margin: 0 auto;
   border-radius: 6px;
-  box-shadow: 1px 1px 15px 2px #4b7278;
   text-align: left;
 }
 .register label {
@@ -259,7 +243,7 @@ a:visited.btn {
   position: relative;
 }
 .register input {
-  width: calc(90%);
+  width: 100%;
   height: 35px;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 10px;
@@ -305,8 +289,10 @@ a:visited.btn {
 }
 .register input[type='submit'] {
   color: #FFF;
+  transition: all .2s;
+  display: block;
 }
-#social {
+x #social {
   padding: 30px calc(-450%);
   background: #ecf0f1;
   text-align: center;
@@ -383,7 +369,7 @@ a:visited.btn {
   font-weight: 400!important;
 }
 .button {
-  background: #56c852;
+  background: #4fc1ec;
   color: #FFF;
   border-radius: 2px!important;
   display: inline-block;
@@ -397,7 +383,7 @@ a:visited.btn {
   transition-delay: 0s;
 }
 .button:hover {
-  background: #58ce54;
+  background: #51c5f1;
   transition: all .2s;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
   top: -1px;
@@ -523,4 +509,10 @@ a:visited.btn {
 }
 .past-main ul li a {
   color: #5d5d5d;
+}
+footer {
+  padding: 0 calc(50% - 500px);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #616161;
 }
