@@ -1,6 +1,61 @@
 footer {
   padding: 0 calc(~'50% - 500px');
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   background: #616161;
+  overflow: hidden;
+}
+
+.page-aboutus footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.row {
+  width: calc(~'25% - 20px');
+  float: left;
+  padding: 10px;
+}
+
+.row:nth-child(3) {
+  width: calc(~'50% - 20px');
+  overflow: hidden;
+}
+
+.row ul {
+  list-style: none;
+  padding: 0;
+}
+
+.row ul li {
+  margin-bottom: 6px;
+  display: block;
+  font-size: 18px;
+}
+
+.row ul li:first-child {
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.row ul li a {
+  padding: 3px;
+  color: #dfdfdf;
+  font-size: 14px;
+}
+
+.row ul li a:hover {
+  border-bottom: 1px dotted #FFF;
+  color: #FFF;
+}
+
+.footerlogo {
+  width: 174px;
+  height: 120px;
+  background: url(img/dojowhite.png) no-repeat center center;
+  background-size: contain;
+  float: right;
 }

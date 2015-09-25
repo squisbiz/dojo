@@ -120,22 +120,6 @@ video {
   background: url(../img/dojo.png) no-repeat;
   margin: 0 auto;
 }
-.tagline {
-  width: 500px;
-  margin: 0 auto;
-  font-size: 23px;
-  color: #FFF;
-  top: 50px;
-  text-align: left;
-  position: relative;
-  background: rgba(255, 255, 255, 0.5);
-  color: #484848;
-  padding: 10px 30px;
-  font-weight: 600;
-}
-.tagline b {
-  font-weight: 600;
-}
 .btn {
   display: inline-block;
   border: 2px solid #FFF;
@@ -389,6 +373,27 @@ x #social {
   top: -1px;
   transition-delay: 0s;
 }
+.big-button {
+  background: #4fc1ec;
+  color: #FFF;
+  border-radius: 2px!important;
+  display: inline-block;
+  height: auto!important;
+  padding: 18px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: all .2s;
+  position: relative;
+  transition-delay: 0s;
+}
+.big-button:hover {
+  background: #51c5f1;
+  transition: all .2s;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  top: -1px;
+  transition-delay: 0s;
+}
 .register-centered {
   width: 960px;
   margin: 0 auto;
@@ -466,6 +471,23 @@ x #social {
   margin: 0 auto;
   margin-top: 30px;
 }
+a.link {
+  border-bottom: 1px solid #4fc1ec;
+  display: inline-block;
+  color: #4fc1ec;
+  padding: 0 5px;
+  transition: all .1s;
+  border-radius: 2px;
+  font-weight: 600;
+}
+a.link:hover {
+  border-bottom: 1px solid #4fc1ec;
+  display: inline-block;
+  background: #4fc1ec;
+  color: #FFF;
+  padding: 0 5px;
+  transition: all .1s;
+}
 .nav {
   overflow: hidden;
   position: fixed;
@@ -473,7 +495,7 @@ x #social {
   left: 0;
   width: 100%;
   height: 70px;
-  background: rgba(0, 0, 0, 0.5);
+  background: #FFF;
   z-index: 4;
   transition: all .3s;
 }
@@ -485,7 +507,7 @@ x #social {
   list-style: none;
 }
 .nav li a {
-  color: #FFF;
+  color: #5d5d5d;
   padding: 24px 15px 6px 15px;
   display: inline-block;
   margin: 0px 2px 0px 2px;
@@ -513,6 +535,124 @@ x #social {
 footer {
   padding: 0 calc(50% - 500px);
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   background: #616161;
+  overflow: hidden;
+}
+.page-aboutus footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.row {
+  width: calc(25% - 20px);
+  float: left;
+  padding: 10px;
+}
+.row:nth-child(3) {
+  width: calc(50% - 20px);
+  overflow: hidden;
+}
+.row ul {
+  list-style: none;
+  padding: 0;
+}
+.row ul li {
+  margin-bottom: 6px;
+  display: block;
+  font-size: 18px;
+}
+.row ul li:first-child {
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #FFF;
+}
+.row ul li a {
+  padding: 3px;
+  color: #dfdfdf;
+  font-size: 14px;
+}
+.row ul li a:hover {
+  border-bottom: 1px dotted #FFF;
+  color: #FFF;
+}
+.footerlogo {
+  width: 174px;
+  height: 120px;
+  background: url(img/dojowhite.png) no-repeat center center;
+  background-size: contain;
+  float: right;
+}
+.page-aboutus .nav {
+  background: #FFF;
+  transition: all .3s;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+.page-aboutus .nav ul li a {
+  color: #5d5d5d;
+}
+.page-aboutus {
+  min-height: 100%;
+  overflow: hidden;
+}
+/*
+.page-aboutus .maincontainer {
+  padding: 0 calc(~'50% - 500px');
+  padding-top: 100px;
+  text-align: center;
+}
+*/
+.aboutus-hero {
+  background: url(img/main-bg.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 0 calc(-450%);
+  padding-bottom: 200px;
+  position: relative;
+  height: calc(85% - 200px);
+}
+.aboutus-hero h1 {
+  color: #FFF;
+  font-size: 40px;
+  margin-bottom: 0;
+  position: relative;
+  top: 50%;
+}
+.tagline {
+  width: 700px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #FFF;
+  margin-top: 30px;
+  position: relative;
+  padding: 10px 30px;
+  top: 50%;
+}
+.tagline b {
+  font-weight: 600;
+}
+.aboutus-about {
+  padding: 0 calc(50% - 500px);
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.aboutus-about .description img {
+  width: 400px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.aboutus-about h2 {
+  margin-top: -5px;
+  margin-bottom: 15px;
+  color: #51c5f1;
+}
+.aboutus-about {
+  color: #5b5b5b;
+}
+.block:last-child {
+  margin-top: 100px;
 }

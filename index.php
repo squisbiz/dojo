@@ -30,7 +30,7 @@ In the Western World, the term dojo primarily refers to a training place, usuall
       Inspired by this idea, and by the perfection-seeking performance of the martial artists, we have named this site The Dojo, a community-building online meeting place and training venue for software engineers to practice and hone their English-based communication and soft skills in a professional context. Just like a martial artists would do at a dojo.
 			</p>
 			
-			<a class="button" href="<?php echo home_url(); ?>	/about-us">About us</a>
+			<a class="button" href="<?php echo home_url(); ?>/about-us">About us</a>
   	</div>
 
 	</div><!-- about-centered -->
@@ -97,7 +97,6 @@ In the Western World, the term dojo primarily refers to a training place, usuall
 <script>
   // get the value of the bottom of the #main element by adding the offset of that element plus its height, set it as a variable
 var mainbottom = $('.main').offset().top + $('.main').height();
-
 // on scroll, 
 $(window).on('scroll',function(){
 
@@ -109,7 +108,6 @@ $(window).on('scroll',function(){
     } else {
         $('.nav').removeClass('past-main');
     }
-
 });
 </script>  
   

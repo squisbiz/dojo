@@ -33,9 +33,9 @@
 		<ul>
 <!-- 			<li><a href="#resources">Resources</a></li> -->
 			<li><a href="#register">Register</a></li>
-      <li><a href="#live">Live!</a></li>
+      <li><a href="<?php echo home_url(); ?>/episodes">Previous Episodes</a></li>
       <li><a href="#programs">Our Programs</a></li>
-			<li><a href="#about">About</a></li>
+      <li><a href="<?php echo home_url(); ?>/about-us">About us</a></li>
 		</ul>
 	</div>
 </div>

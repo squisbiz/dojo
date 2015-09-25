@@ -25,7 +25,7 @@ a:active{text-decoration: none; color: #FFF;}
 
 .main-container{
 	width: 100%;
-	height: 100%;
+// 	height: 100%;
 }
 
 .safearea{
@@ -93,6 +93,7 @@ video {
 .darker {
   position: fixed;
   background-color: rgba(0,0,0,.6);
+//   background-color: rgba(21,61,76,.8);
   background-image: url(img/pattern.png);
   background-repeat: repeat;
   min-width: 100%;
@@ -118,22 +119,6 @@ video {
   height: 183px;
   background: url(../img/dojo.png) no-repeat;
   margin: 0 auto;
-}
-.tagline {
-  width: 500px;
-  margin: 0 auto;
-  font-size: 23px;
-  color: #FFF;
-  top: 50px;
-  text-align: left;
-  position: relative;
-  background: rgba(255,255,255,.5);
-  color: #484848;
-  padding: 10px 30px;
-  font-weight: 600;
-}
-.tagline b {
-  font-weight: 600;
 }
 .btn {
   display: inline-block;
@@ -413,6 +398,30 @@ a:visited.btn {
   transition-delay: 0s;
 }
 
+.big-button {
+//   background: #56c852;
+  background: @main;
+  color: #FFF;
+  border-radius: 2px!important;
+  display: inline-block;
+  height: auto!important;
+  padding: 18px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.2);
+  transition: all .2s;
+  position: relative;
+  transition-delay: 0s;  
+}
+
+.big-button:hover {
+  background: @hover;
+  transition: all .2s;
+  box-shadow: 0px 5px 10px rgba(0,0,0,.4);
+  top: -1px;
+  transition-delay: 0s;
+}
+
 .register-centered{
 	width: 960px;
 	margin: 0 auto;
@@ -504,6 +513,25 @@ a:visited.btn {
 .program-card .button {
   margin: 0 auto;
   margin-top: 30px;
+}
+
+a.link {
+  border-bottom: 1px solid @main;
+  display: inline-block;
+  color: @main;
+  padding: 0 5px;
+  transition: all .1s;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+a.link:hover {
+  border-bottom: 1px solid @main;
+  display: inline-block;
+  background: @main;
+  color: #FFF;
+  padding: 0 5px;
+  transition: all .1s;
 }
 
 
