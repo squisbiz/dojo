@@ -340,18 +340,6 @@ x #social {
   text-align: center;
   font-size: 10px;
 }
-.smallbutton {
-  background: #56c852;
-  color: #FFF;
-  border-radius: 100px!important;
-  padding-top: 10px!important;
-  display: inline-block;
-  height: auto!important;
-  padding-bottom: 10px!important;
-  font-size: 12px;
-  width: 100%!important;
-  font-weight: 400!important;
-}
 .button {
   background: #4fc1ec;
   color: #FFF;
@@ -372,6 +360,13 @@ x #social {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
   top: -1px;
   transition-delay: 0s;
+}
+.small-button {
+  color: #FFF!important;
+  display: inline-block;
+  height: auto!important;
+  font-size: 12px;
+  padding: 10px 15px!important;
 }
 .big-button {
   background: #4fc1ec;
@@ -655,4 +650,54 @@ footer {
 }
 .block:last-child {
   margin-top: 100px;
+}
+.episodesindex {
+  margin-top: 100px;
+  text-align: center;
+  padding: 0 calc(50% - 500px);
+  padding-bottom: 50px;
+}
+.episodesindex ul li {
+  text-align: left;
+  list-style: none;
+  display: block;
+  overflow: hidden;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.thumb {
+  width: 300px;
+  height: 200px;
+  background: aqua;
+}
+.post-thumb {
+  float: left;
+}
+.excerpt {
+  width: calc(100% - 340px);
+  float: left;
+  margin-left: 40px;
+}
+.excerpt h2 {
+  font-size: 28px;
+  margin: 0;
+  color: #5b5b5b;
+}
+.excerpt h4 {
+  font-size: 16px;
+  margin: 0;
+  color: #5b5b5b;
+  font-weight: 100;
+}
+.excerpt p {
+  color: #5b5b5b;
+}
+.excerpt a {
+  color: #4fc1ec;
+}
+.excerpt .link {
+  position: relative;
+  left: -4px;
+  border-bottom-color: #FFF;
 }

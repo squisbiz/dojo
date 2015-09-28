@@ -9,7 +9,7 @@
       <li><a href="#">About Us</a></li>
       <li><a href="#">Our Programs</a></li>
       <li><a href="#">Episodes</a></li>
-      <li><a href="#">Save your spot!</a></li>
+      <li><a href="#">Save your spot</a></li>
     </ul>
   </div>
   
