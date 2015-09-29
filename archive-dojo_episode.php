@@ -19,7 +19,7 @@
   <div class="excerpt">
 		<h2><?php the_title(); ?></h2>
 		<h4><a href="<?php the_field('profile_url')?>" class="link"><?php the_field('tagline')?></a></h4>
-		<p><?php the_excerpt(); ?><a href="<?php the_permalink(); ?>" class="button small-button">Read More...</a></p>
+		<p><?php the_field('profile_description')?><a href="<?php the_permalink(); ?>" class="button small-button">See Episode...</a></p>
 	</div> 
   	
   </li>
