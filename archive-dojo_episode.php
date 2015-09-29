@@ -3,7 +3,7 @@
 <div class="episodesindex">
 
 <div class="cont-h1">
-  <h1>Case Studies</h1>
+  <h1>Previous Episodes</h1>
 </div>
 
 <ul>
