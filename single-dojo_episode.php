@@ -7,7 +7,7 @@
     <h2><a href="<?php the_field('profile_url')?>" class="link" target="_blank"><?php the_field('tagline')?></a></h2>
     <div class="video-left">
       <div class="videoplayer">
-        <iframe width="560" height="349" src="https://www.youtube.com/embed/RFvrVrtitR0" frameborder="0" allowfullscreen></iframe>
+        <?php the_field('embed_video_url')?>
       </div>
     </div>
     <div class="video-description">
