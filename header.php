@@ -29,7 +29,7 @@
 
 <div class="nav">
 	<div class="safearea">
-		<div class="logo"></div>
+		<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"></a>
 		<ul>
 <!-- 			<li><a href="#resources">Resources</a></li> -->
 			<li><a href="#register">Register</a></li>
